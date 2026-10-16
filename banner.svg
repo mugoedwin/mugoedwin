@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Edwin Mugo, Full-Stack Django and Python Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1022"/>
+      <stop offset="1" stop-color="#1E2454"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5BE3D5"/>
+      <stop offset="1" stop-color="#9D8CFF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.2" r="0.6">
+      <stop offset="0" stop-color="#6A5BFF" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#6A5BFF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#8E95BD" fill-opacity="0.22"/>
+    </pattern>
+  </defs>
+  <style>
+    .name { font: 700 68px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #F2F4FF; letter-spacing: -1px; }
+    .role { font: 400 26px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #B9BEE0; }
+    .term { font: 500 22px 'SFMono-Regular', Consolas, 'DejaVu Sans Mono', monospace; }
+    .prompt { fill: #5BE3D5; }
+    .cmd { fill: #E6E9FF; opacity: 0; animation: swap 12s infinite; }
+    .c2 { animation-delay: 4s; }
+    .c3 { animation-delay: 8s; }
+    @keyframes swap {
+      0% { opacity: 0; }
+      4% { opacity: 1; }
+      30% { opacity: 1; }
+      34% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .cmd { animation: none; opacity: 0; }
+      .c1 { opacity: 1; }
+    }
+  </style>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#dots)"/>
+  <rect width="1200" height="300" fill="url(#glow)"/>
+
+  <text class="name" x="70" y="125">Edwin Mugo</text>
+  <text class="role" x="72" y="170">Full-Stack Django &amp; Python Developer</text>
+  <rect x="72" y="190" width="90" height="4" rx="2" fill="url(#line)"/>
+
+  <g class="term">
+    <text class="prompt" x="72" y="244">$</text>
+    <text class="cmd c1" x="98" y="244">python manage.py runserver</text>
+    <text class="cmd c2" x="98" y="244">building learning platforms that scale</text>
+    <text class="cmd c3" x="98" y="244">turning ideas into clean, working code</text>
+  </g>
+</svg>
